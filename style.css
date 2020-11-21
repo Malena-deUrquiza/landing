@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Comfortaa', cursive;
+}
+header{
+	background: url('img/fondoambarpagina.jpg');
+	margin-bottom: 35px;
+}
+.contenedorpadre{
+	width: 70%;
+	margin: 45px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+header nav a{
+	color: #FFA07A;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 10px;
+}
+header nav a:hover{
+	text-decoration: underline;
+}
+header nav{
+	padding: 15px;
+	text-align: right;
+}
+h1{
+	color:#FA8072;
+	font-size: 80px;
+    text-align: center;
+    padding: 200px;
+}
+.elhijito{
+	display: inline-block;
+	text-align: center;
+}
+.contenedorpadre .elhijito h5{
+	color:#FFA07A;
+	font-size: 20px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.contenedorpadre .elhijito img{
+	border-radius: 8px;
+}
+footer {
+	text-align:center;
+	margin: 40px;
+	
+}
+footer a{
+	text-decoration: none;
+	color: #FFA07A;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+footer .fa-instagram{
+	font-size: 40px;
+	margin: 20px;
+}
+footer .fa-facebook{
+	font-size: 40px;
+}
